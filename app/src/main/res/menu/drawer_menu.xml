@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_person"
+            android:title="    All" />
+        <item
+            android:id="@+id/nav_Male"
+            android:icon="@drawable/malesymbol"
+            android:title="    Male" />
+        <item
+            android:id="@+id/nav_Female"
+            android:icon="@drawable/femalesymbol"
+            android:title="    Female" />
+        <item
+            android:id="@+id/nav_Fav"
+            android:icon="@drawable/ic_fav"
+            android:title="    Favourites" />
+
+
+    </group>
+
+
+</menu>
